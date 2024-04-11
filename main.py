@@ -31,7 +31,6 @@ states_to_learn = []
 for state in all_states:
     if state not in guessed_states:
         #states_to_learn.append(state)
-        #another comment
         t = turtle.Turtle()
         t.hideturtle()
         t.penup()
